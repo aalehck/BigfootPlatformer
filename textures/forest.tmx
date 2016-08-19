@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="25" tilewidth="24" tileheight="24" nextobjectid="1">
+ <tileset firstgid="1" name="forest" tilewidth="24" tileheight="24" tilecount="72">
+  <image source="foresttile.png" trans="ff00ff" width="192" height="217"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="24" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="-0.25" width="23.75" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="3.5" y="-0.5" width="16.75" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.5" y="-0.25" width="24.75" height="24.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0.25" width="24" height="23.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="11">
+   <objectgroup draworder="index">
+    <object id="0" x="0.5" y="23.5">
+     <polyline points="0,0 4.26531,-10.75 4.04082,-23.75 18.4082,-24 18.6327,-12.5 22,-0.25 0.22449,0.25"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="24">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.75" y="0.25" width="24.75" height="23.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="25">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="0" width="24.5" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="-0.5" width="24.5" height="24.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <objectgroup draworder="index">
+    <object id="0" x="0.25" y="0" width="23.5" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="34">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0.25" width="24" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="35">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="0.25" width="24" height="23.5"/>
+   </objectgroup>
+  </tile>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="-0.25" width="24" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="43">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0.25" width="23.75" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="48">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="23.75" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="50">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="24" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="52">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="0" width="24.25" height="24.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="53">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="23.75" height="24.25"/>
+   </objectgroup>
+  </tile>
+  <tile id="56">
+   <objectgroup draworder="index">
+    <object id="0" x="0.25" y="0.25" width="23.75" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="58">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="24.5" height="24"/>
+   </objectgroup>
+  </tile>
+  <tile id="60">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.5" y="0.25" width="24.5" height="23.75"/>
+   </objectgroup>
+  </tile>
+  <tile id="61">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.25" y="0.25" width="23.75" height="23.5"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlcsOgjAQAFfpRcNNL3yIJv7/j9mDNdtNa6lIFnUmmRTCo6QDQQQAAAAAAAASwfsB4EkQemwJemyDoEZ6+KIb0MOXIPTYCkHoUeMS3Suv0UEdH8z+UmwLeuTcogflWfI+yU9QakGPHNvDOj1cyvhCMdv/wK7iSdotenuk97w2p7Xn3KT9bnuv93ZqaNffOodgxtac+t5zz00ezdy913+7NcbCdhrX7KHxXhsPS//4lktbz8F7XX7Rd/F+bkRcxzutvjbS
+  </data>
+ </layer>
+</map>

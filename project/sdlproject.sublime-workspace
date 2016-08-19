@@ -1,0 +1,586 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coll",
+				"collisionY"
+			],
+			[
+				"col",
+				"collisionY"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"COLI",
+				"COLLISION_NONE"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"level",
+				"level_width"
+			],
+			[
+				"SDL_RE",
+				"SDl_Renderer"
+			],
+			[
+				"til",
+				"tile_height"
+			],
+			[
+				"tile_",
+				"tile_width"
+			],
+			[
+				"if",
+				"ifndef"
+			],
+			[
+				"chara",
+				"characterFrame"
+			],
+			[
+				"leve",
+				"levelTileSet"
+			],
+			[
+				"char",
+				"characterFrame"
+			],
+			[
+				"sp",
+				"speedCoefficient"
+			],
+			[
+				"SDL_Get",
+				"SDL_GetTicks"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/sdltesting.cpp",
+			"settings":
+			{
+				"buffer_size": 4133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main_typedef.h",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/character.cpp",
+			"settings":
+			{
+				"buffer_size": 3321,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/character.h",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/alec/prgmmng/repos/tmxparser/test/test.cpp",
+			"settings":
+			{
+				"buffer_size": 10877,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/cTexture.cpp",
+			"settings":
+			{
+				"buffer_size": 1462,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/cTexture.h",
+			"settings":
+			{
+				"buffer_size": 652,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/levelMap.cpp",
+			"settings":
+			{
+				"buffer_size": 3561,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "for(int x = i; x < i + widthDiv; ++x){\n		\n		if(tileLayer->GetTileTilesetIndex(x, j) != -1 && characterFrame->y < yPix){\n			collision.collisionY = COLLISION_TOP;\n			collision.adjustLocation.y = j * tile_height;\n			\n			break;\n		}\n		else if(tileLayer->GetTileTilesetIndex(x, j + heightDiv) != -1  && (characterFrame->y + characterFrame->h) > yPix){\n			collision.collisionY = COLLISION_BOTTOM;\n			collision.adjustLocation.y = (j * tile_height);\n			\n			break;\n		}\n	}\n\n	for(int y = j; y < j + heightDiv; ++y){\n		\n		if(tileLayer->GetTileTilesetIndex(i, y) != -1 && characterFrame->x < xPix){\n			collision.collisionX = COLLISION_LEFT;\n			collision.adjustLocation.x = (i * tile_width) + tile_width;\n\n			break;\n		}\n		else if(tileLayer->GetTileTilesetIndex(i + widthDiv, y) != -1 && (characterFrame->x + characterFrame->w) > xPix){\n			collision.collisionX = COLLISION_RIGHT;\n			collision.adjustLocation.x = (i * tile_width);\n\n			break;\n		}\n	}\n\n	return collision;",
+			"settings":
+			{
+				"buffer_size": 951,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/levelMap.h",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/alec/.cache/.fr-Ov6CO7/44_frame_independent_movement/44_frame_independent_movement.cpp",
+		"/home/alec/Documents/School/cs459/project2.cpp",
+		"/home/alec/prgmmng/sdl_game/Makefile",
+		"/home/alec/prgmmng/sdl_game/src/cSurface.cpp",
+		"/home/alec/prgmmng/sdl_game/src/cSurface.h",
+		"/home/alec/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/alec/prgmmng/sdl_game/makefile",
+		"/home/alec/prgmmng/sdl_game/compileflags",
+		"/home/alec/prgmmng/sdl_game/src/cTexture.h",
+		"/home/alec/prgmmng/sdl_game/src/levelmap.h",
+		"/home/alec/prgmmng/sdl_game/src/levelmap.cpp",
+		"/home/alec/.cache/.fr-NugwLG/39_tiling/39_tiling.cpp",
+		"/home/alec/prgmmng/sdl_game/src/cTexture.cpp",
+		"/home/alec/prgmmng/repos/tmxparser/src/Tmx.h.in",
+		"/home/alec/prgmmng/sdl_game/lib/main.cpp",
+		"/home/alec/prgmmng/sdl_game/lib/tmxparser.cpp",
+		"/home/alec/prgmmng/sdl_game/lib/tmxparser.h",
+		"/home/alec/prgmmng/sdl_game/character.cpp",
+		"/home/alec/prgmmng/sdl_game/sdltesting.cpp",
+		"/home/alec/prgmmng/sdl_game/cTexture.cpp",
+		"/home/alec/prgmmng/sdl_game/cSurface.cpp",
+		"/home/alec/prgmmng/sdl_game/character.h",
+		"/home/alec/prgmmng/sdl_game/cSurface.h",
+		"/home/alec/Downloads/44_frame_independent_movement/44_frame_independent_movement.cpp",
+		"/home/alec/Downloads/44_frame_independent_movement.zip",
+		"/home/alec/.cache/.fr-rsJMfJ/44_frame_independent_movement/44_frame_independent_movement.cpp",
+		"/home/alec/.cache/.fr-CU12aC/14_animated_sprites_and_vsync/14_animated_sprites_and_vsync.cpp",
+		"/home/alec/prgmmng/haskell/99problems.hs"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctrl+a",
+			"ctrl+e",
+			"line",
+			"collisionState",
+			"collisionPosition",
+			"collisionPoint",
+			"tiletexture",
+			"ctrl+alt+s",
+			"Rect",
+			"TmxLayerTileCollection_t",
+			"pause",
+			"getTicks",
+			"Ltimer",
+			"framecount"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"collision",
+			"collisionState"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/sdltesting.cpp",
+					"settings":
+					{
+						"buffer_size": 4133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2936,
+								2936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main_typedef.h",
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/character.cpp",
+					"settings":
+					{
+						"buffer_size": 3321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2410,
+								2410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/character.h",
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/alec/prgmmng/repos/tmxparser/test/test.cpp",
+					"settings":
+					{
+						"buffer_size": 10877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7869,
+								7869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/cTexture.cpp",
+					"settings":
+					{
+						"buffer_size": 1462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/cTexture.h",
+					"settings":
+					{
+						"buffer_size": 652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/levelMap.cpp",
+					"settings":
+					{
+						"buffer_size": 3561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2430,
+								2430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/levelMap.h",
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true
+}
